@@ -1,6 +1,5 @@
 def exists_word(word, instance):
     files = []
-
     for file in range(len(instance)):
         info = instance.search(file)
         name = info["nome_do_arquivo"]
